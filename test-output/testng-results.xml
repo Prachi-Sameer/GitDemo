@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="6" passed="3" failed="1" skipped="1">
+<testng-results ignored="1" total="8" passed="5" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-29T11:20:19 IST" name="Suite" finished-at="2022-04-29T11:20:19 IST" duration-ms="137">
+  <suite started-at="2022-05-03T16:28:49 IST" name="Suite" finished-at="2022-05-03T16:28:49 IST" duration-ms="121">
     <groups>
     </groups>
-    <test started-at="2022-04-29T11:20:19 IST" name="Test" finished-at="2022-04-29T11:20:19 IST" duration-ms="137">
+    <test started-at="2022-05-03T16:28:49 IST" name="Test" finished-at="2022-05-03T16:28:49 IST" duration-ms="121">
+      <class name="prachijoshi.AppiumTest">
+        <test-method signature="methodA()[pri:0, instance:prachijoshi.AppiumTest@74751b3]" started-at="2022-05-03T16:28:49 IST" name="methodA" finished-at="2022-05-03T16:28:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodA -->
+        <test-method signature="methodB()[pri:0, instance:prachijoshi.AppiumTest@74751b3]" started-at="2022-05-03T16:28:49 IST" name="methodB" finished-at="2022-05-03T16:28:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodB -->
+      </class> <!-- prachijoshi.AppiumTest -->
       <class name="prachijoshi.RestAPITest">
-        <test-method signature="methodC()[pri:0, instance:prachijoshi.RestAPITest@f736069]" started-at="2022-04-29T11:20:19 IST" name="methodC" finished-at="2022-04-29T11:20:19 IST" duration-ms="14" status="PASS">
+        <test-method signature="methodC()[pri:0, instance:prachijoshi.RestAPITest@2b91004a]" started-at="2022-05-03T16:28:49 IST" name="methodC" finished-at="2022-05-03T16:28:49 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodC -->
-        <test-method signature="methodD()[pri:0, instance:prachijoshi.RestAPITest@f736069]" started-at="2022-04-29T11:20:19 IST" name="methodD" finished-at="2022-04-29T11:20:19 IST" duration-ms="3" status="PASS">
+        <test-method signature="methodD()[pri:0, instance:prachijoshi.RestAPITest@2b91004a]" started-at="2022-05-03T16:28:49 IST" name="methodD" finished-at="2022-05-03T16:28:49 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodD -->
       </class> <!-- prachijoshi.RestAPITest -->
       <class name="prachijoshi.SeleniumTest">
-        <test-method signature="parent()[pri:0, instance:prachijoshi.SeleniumTest@5d7148e2]" started-at="2022-04-29T11:20:19 IST" name="parent" finished-at="2022-04-29T11:20:19 IST" duration-ms="8" status="FAIL">
+        <test-method signature="parent()[pri:0, instance:prachijoshi.SeleniumTest@21e360a]" started-at="2022-05-03T16:28:49 IST" name="parent" finished-at="2022-05-03T16:28:49 IST" duration-ms="5" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -63,17 +73,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parent -->
-        <test-method signature="methodF()[pri:0, instance:prachijoshi.SeleniumTest@5d7148e2]" started-at="2022-04-29T11:20:19 IST" name="methodF" finished-at="2022-04-29T11:20:19 IST" duration-ms="2" status="PASS">
+        <test-method signature="methodF()[pri:0, instance:prachijoshi.SeleniumTest@21e360a]" started-at="2022-05-03T16:28:49 IST" name="methodF" finished-at="2022-05-03T16:28:49 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodF -->
-        <test-method signature="child()[pri:0, instance:prachijoshi.SeleniumTest@5d7148e2]" started-at="2022-04-29T11:20:19 IST" name="child" finished-at="2022-04-29T11:20:19 IST" depends-on-methods="prachijoshi.SeleniumTest.parent" duration-ms="0" status="SKIP">
+        <test-method signature="child()[pri:0, instance:prachijoshi.SeleniumTest@21e360a]" started-at="2022-05-03T16:28:49 IST" name="child" finished-at="2022-05-03T16:28:49 IST" depends-on-methods="prachijoshi.SeleniumTest.parent" duration-ms="1" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method SeleniumTest.child()[pri:0, instance:prachijoshi.SeleniumTest@5d7148e2] depends on not successfully finished methods]]>
+              <![CDATA[Method SeleniumTest.child()[pri:0, instance:prachijoshi.SeleniumTest@21e360a] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method SeleniumTest.child()[pri:0, instance:prachijoshi.SeleniumTest@5d7148e2] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method SeleniumTest.child()[pri:0, instance:prachijoshi.SeleniumTest@21e360a] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
