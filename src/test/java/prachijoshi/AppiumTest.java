@@ -8,6 +8,7 @@ public class AppiumTest {
 	public void methodA()
 	{
 		System.out.println("Appium test 1");
+		System.out.println("I have modified for git hub in Appium");
 	}
 
 	@Test
